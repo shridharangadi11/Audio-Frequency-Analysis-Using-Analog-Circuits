@@ -2,7 +2,7 @@
 
 <div align="center">
 
-## 🏆 1st Prize Winner – Hack Genesis 2026
+## 🏆  Winner – Hack Genesis 2026
 ### 24-Hour National Level Hardware Hackathon
 
 **Team: Circuit Crafters**
