@@ -1,0 +1,24 @@
+const int micPin = 34;
+
+void setup()
+{
+  Serial.begin(115200);
+
+  analogReadResolution(12);
+  analogSetAttenuation(ADC_11db);
+}
+
+void loop()
+{
+  int adc = analogRead(micPin);
+
+  float voltage = (adc * 5) / 4095.0;
+
+  Serial.print("ADC = ");
+  Serial.print(adc);
+
+  Serial.print("   Voltage = ");
+  Serial.println(voltage, 3);
+
+  delay(100);
+}
